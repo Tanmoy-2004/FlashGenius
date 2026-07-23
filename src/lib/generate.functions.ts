@@ -56,10 +56,8 @@ export const generateContent = createServerFn({ method: "POST" })
     try {
       const { text } = await generateText({
         model,
-        messages: [
-          { role: "system", content: SYSTEM_PROMPT },
-          { role: "user", content: `Notes:\n\n${data.notes}` },
-        ],
+        system: SYSTEM_PROMPT,
+        prompt: `Notes:\n\n${data.notes}`,
       });
 
       const parsed = JSON.parse(extractJson(text)) as GeneratedContent;
