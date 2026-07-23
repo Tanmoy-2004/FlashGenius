@@ -1,3 +1,10 @@
+# FlashGenius – AI Flashcard & Quiz Generator
+
+> An AI-powered study tool that transforms study notes into interactive flashcards and quizzes.
+
+**Project Date:** July 2026
+
+
 # Welcome to your Lovable project
 
 This project was built with [Lovable](https://lovable.dev).
