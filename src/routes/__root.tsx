@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "FlashGenius — Turn notes into flashcards & quizzes" },
       { name: "twitter:description", content: "Paste your study notes and instantly generate flashcards and multiple-choice quizzes powered by AI." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/3ca8f573-fe31-4faf-a1bc-2f76de40b34c" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/3ca8f573-fe31-4faf-a1bc-2f76de40b34c" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cfc19721-7844-4302-a480-6db2d4339de9" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cfc19721-7844-4302-a480-6db2d4339de9" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
